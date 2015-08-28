@@ -1,0 +1,36 @@
+*** Settings ***
+Library         webapp_robot.plugin.test_resource.Resource
+Test Teardown   Test Teardown
+
+*** Testcases ***
+Create User
+    Create User     chandan     meetup
+
+Create Token
+    Create User     chadan      meetup
+    Create token
+
+Create User and access resource from token
+    Create User     chandan     meetup
+    Create Token
+    Access Resource From Token
+
+Access Resource directly without creating token
+    Access Resource from token
+
+Create User and Access resource from Username
+    Create User     chandan     meetup
+    Access Resource From Username
+
+Delete Users after creation
+    Create User     chandan1     meetup
+    Create User     chandan2     meetup
+    Create User     chandan3     meetup
+    Create User     chandan4     meetup
+    Create User     chandan5     meetup
+
+*** Keyword ***
+Test Teardown
+    Do Cleanup
+
+
