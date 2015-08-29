@@ -9,7 +9,7 @@ webapp__robot directory contains the library code needed to test the software
 Tests script is listed under the webapp_tests directory.
 
 - How to run the tests
-
+```
     ✗ pybot webapp_tests
     ==============================================================================
     Webapp Tests                                                                  
@@ -49,4 +49,4 @@ Tests script is listed under the webapp_tests directory.
     Output:  /home/abehl/pune_meetup/pune_python_meetup/output.xml
     Log:     /home/abehl/pune_meetup/pune_python_meetup/log.html
     Report:  /home/abehl/pune_meetup/pune_python_meetup/report.html
-
+```
