@@ -8,6 +8,16 @@ webapp__robot directory contains the library code needed to test the software
 
 Tests script is listed under the webapp_tests directory.
 
+- Basic on robot framework
+```
+- generic test automation framework
+- acceptance test-driven development
+- keyword-driven testing approach
+- testing capabilities can be extended by test libraries implemented either with Python or Java, and users can create new higher-level keywords from existing ones using the same syntax that is used for creating test cases.
+
+- Robot Framework has a modular architecture that can be extended with bundled and self-made test libraries.
+```
+
 - How to run the tests
 ```
     ✗ pybot webapp_tests
